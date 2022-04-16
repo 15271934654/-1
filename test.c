@@ -1,6 +1,5 @@
 #include<stdio.h>
 int dev(char*p);
-int fun(int b,int b);
 int main()
 {
 	int a = 10;
@@ -24,8 +23,6 @@ int main()
 	int b ;
 	printf("Please Input b:");
 	scanf("%d",&b); 
-	fun(a,b);
-	printf("%d  ___   %c\n",a,ch);
 	return 0;
 }
 
@@ -36,9 +33,4 @@ int dev(char*p)
 		*p += ' ';
 		p++;
 	}
-
-int fun(int a,int b)
-{
-	int c = 100;
-	return a + b + c;
 }
