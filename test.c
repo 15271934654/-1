@@ -1,5 +1,4 @@
 #include<stdio.h>
-int dev(char*p);
 int fun(int b,int b);
 int main()
 {
@@ -28,14 +27,6 @@ int main()
 	printf("%d  ___   %c\n",a,ch);
 	return 0;
 }
-
-int dev(char*p)
-{
-	while(*p)
-	{
-		*p += ' ';
-		p++;
-	}
 
 int fun(int a,int b)
 {
